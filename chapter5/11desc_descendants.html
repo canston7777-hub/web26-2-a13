@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>11desc_descendants</title>
+    <style>
+        /*#header h1{color: red;}
+
+        #section h1{color: orange;}
+
+        #header h1, h2{color: blueviolet;}
+
+        #header h1, #header h2{color: aqua;}*/
+
+        #header > h1{color: red;}
+
+        #section>h1{color: orange;}
+    </style>
+
+
+</head>
+<body>
+    <h3>1. 후손 선택자: 특정한 태그의 후손을 선택(선택자1, 선택자2)</h3>
+    <hr>
+
+
+    <div id="header">
+        <h1 class="title">Lorem ipsum dolor</h1>
+        <div id="nav">
+            <h1>navigation</h1>
+            <h2>*header 안의 h2 - CSS3 selector basic</h2>
+        </div>
+
+        <div class="section">
+            <h1 class="title">Lorem ipsum dolor</h1>
+            <h2>*section 안의 h2 - CSS3 selector basic</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos alias, impedit accusantium quisquam fuga omnis quaerat error adipisci nostrum veniam commodi, deserunt sunt neque obcaecati expedita cupiditate reprehenderit, vel maxime.</p>
+
+        </div>
+    </div>
+</body>
+</html>

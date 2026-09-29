@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>CSS3 selector Basic</title>
+    <style>
+        #header{
+            width: 800px; margin: 0 auto;
+            background-color: red;
+        }
+        #wrap{
+            width: 800px; margin: 0 auto;
+            overflow: hidden;
+        }
+        #aside{
+            width: 200px; float: left;
+            background-color: green;
+        }
+        #content{
+            width: 600px; float: left;
+            background-color: green;
+        }
+        #rint{color: aqua;}
+
+        .select{color: red;}
+
+        .header{background-color: blue;}
+        .item{color: red;}
+
+        li.select{color: violet;}
+    </style>
+
+</head>
+<body>
+    <h2>1. 전체 선택자</h2>
+    <h2>2. 태그 선택자</h2>
+    <h2>3. 아이디 선택자</h2>
+    <h2>4. id속성을 중복사용하면 해당 id속성을 표시한 모든</h2>
+    <h2>5. 클래스 선택자</h2>
+    <hr>
+
+    <h1>제목 글자</h1>
+    <p>lorem ipsum dolor sit amet</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+
+    <ul>
+        <li class="select">사과</li>
+        <li>바나나</li>
+        <li class="select">오렌지</li>
+        <li>감</li>
+    </ul>
+
+    <h1 class="item header">아아아아아아아아아아</h1>
+
+    <h1>id속성을 중복사용하면 해당 id속성을 표시</h1>
+
+    <div id="header">
+        <h1>#header 태그</h1>
+    </div>
+    <div id="wrap">
+        <h1>#wrap 태그</h1>
+    </div>
+    <div id="aside">
+        <h1>#aside 태그</h1>
+    </div>
+    <div id="content">
+        <h1>#content 태그</h1>
+    </div>
+</body>
+</html>
